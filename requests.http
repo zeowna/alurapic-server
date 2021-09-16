@@ -1,0 +1,15 @@
+POST http://localhost:3000/usuarios
+Content-Type: application/json
+
+{
+  "id": 1,
+  "userName": "jose",
+  "email": "jose@anthor.com",
+  "joinDate": "2021-09-16T17:54:32.776Z",
+  "fullName": "José Lucas Chociai",
+  "password": "123"
+}
+
+###
+
+GET http://localhost:3000/usuarios/jose
